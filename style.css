@@ -1,0 +1,249 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background: #E5E5E5;
+    font-family: 'Open Sans', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.12);
+}
+.logo {
+    padding-left: 50px;
+}
+
+menu {
+    padding-right: 50px;
+}
+
+.menu ul {
+    display: flex;
+    list-style: none;
+}
+
+.menu li {
+    display: flex;
+    list-style: none;
+    padding-left: 50px;
+}
+
+.meio {
+    margin-top: 5rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+
+content, nav {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    padding: 10px;
+}
+
+content {
+    margin-bottom: 5rem;
+}
+
+content ul .lista {
+    color: #545454;
+    list-style:disc;
+}
+
+content ul .lista-lista {
+    color: #545454;
+    list-style:circle;
+}
+
+
+content img {
+    width: 100%;
+}
+
+content .botao {
+    display: flex;
+    justify-content: flex-end;
+    margin: 10px;
+}
+
+
+content button {
+    background: #FFFFFF;
+    color:  #545454;
+    padding: 18px 28px;
+    border: 1px solid #FE0078;
+    box-sizing: border-box;
+    border-radius: 25px;
+}
+
+content button:hover {
+   background: #FE0078;
+}
+
+content button a {
+    color:  #545454;
+}
+
+content button a:hover {
+    color: #FFFFFF;
+}
+
+content p, h1 {
+    padding-left: 20px;
+}
+content p {
+    color: #545454;
+}
+
+.conteudo .form {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.form .alinhamento-form {
+    display: flex;
+}
+
+.form-linha1 {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+}
+
+.form-linha1 .texto, .email {
+    width: 90%;
+    height: 40px;
+}
+
+textarea {
+    width: 95%;
+}
+
+.form-linha1 .texto, .email, .comentario {
+    border: 1px solid #EEEEEE;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.form-linha1 .texto:hover, .email:hover, .comentario:hover {
+    border: 1px solid #FE0078;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.conteudo .form .botao-form {
+    display: flex;
+    justify-content: flex-end;
+    margin: 10px;
+}
+
+.conteudo .form button {
+    background: #FE0078;
+    color:  #FFFFFF;
+    padding: 18px 28px;
+    border: 1px solid #FE0078;
+    box-sizing: border-box;
+    border-radius: 25px;
+}
+
+.conteudo .form label {
+    padding: 10px ;
+}
+
+.conteudo {
+    display: flex;
+    flex-direction: column;
+}
+
+.conteudo {
+    width: 55%;
+}
+
+nav {
+    width: 25%;
+}
+
+.nav-menu {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+.nav-menu ul, li {
+    list-style: none;
+    padding: 0px;
+}
+
+.nav-menu .publi {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #EEEEEE;
+    color: #545454;
+    margin-bottom: 2rem;
+    font-size: 36px;
+    width: 100%;
+    height: 240px;
+}
+
+.nav-menu a {
+    color: #545454;
+}
+
+.nav-menu li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 2px dashed #EEEEEE;
+}
+
+.nav-menu li:hover, a:hover{
+    color: #FE0078;
+}
+
+.nav-menu li:hover {
+    border-bottom: 2px dashed #FE0078;
+}
+
+
+.nav-menu h1 {
+    border-left: solid 2px #FE0078;
+}
+
+
+.pesquisar {
+    color: #545454;
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #EEEEEE;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+.pesquisar:hover {
+    border: 1px solid #FE0078;
+
+}
+
+footer {
+    display: flex;
+    padding: 15px;
+    align-items: center;
+    justify-content: center;
+    background: #222222;
+}
+
+footer p {
+    color: #FFFFFF;
+}
